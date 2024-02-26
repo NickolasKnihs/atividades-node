@@ -12,5 +12,5 @@ function main (numero){
 
 
 
-console.log(main(0))
+// console.log(main(0));
 module.exports = main;
