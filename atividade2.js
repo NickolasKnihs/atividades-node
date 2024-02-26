@@ -8,5 +8,5 @@ function main (raio){
 
 
 
-//console.log(main(25))
+console.log(main(5))
 module.exports = main;

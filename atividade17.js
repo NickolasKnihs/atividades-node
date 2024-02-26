@@ -9,5 +9,5 @@ function main(numero1, numero2) {
 }
 
 
-console.log(main(20, 84));
+// console.log(main(20, 84));
 module.exports = main;
