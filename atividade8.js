@@ -7,8 +7,10 @@ function main(string) {
 
 
     return string === stringInvertida;
+
+
 }
 
 
-//console.log(main('ovo'))
+// console.log(main('arara e arara'))
 module.exports = main;

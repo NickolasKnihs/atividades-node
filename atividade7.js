@@ -1,30 +1,18 @@
 // 7. Calcular a média ponderada de 3 notas. (as médias são: 1, 2 e 3
 //respectivamente)
-function main(notas) {
-    const pesos = [1, 2, 3];
-    if (notas.length !== pesos.length || notas.length !== 3) {
-        // Verifica se o número de notas é igual ao número de pesos e se é 3
-        return "Erro: Forneça três notas e três pesos correspondentes.";
-    }
+function main(nota1, nota2, nota3) {
+    const pesos1 = 1
+    const pesos2 = 2
+    const pesos3 = 3
+    
+    const somaPesos = pesos1 + pesos2 + pesos3;
+    const somaNotas = (pesos1 * nota1) + (pesos2 * nota2) + (pesos3 * nota3);
 
 
-    let somaProdutos = 0;
-    let somaPesos = 0;
-
-
-    for (let i = 0; i < notas.length; i++) {
-        somaProdutos += notas[i] * pesos[i];
-        somaPesos += pesos[i];
-    }
-
-
-    return somaProdutos / somaPesos;
+    return somaNotas/somaPesos
 }
 
-
-// Teste
-// const notas = [1, 2, 3];
-
-
-// console.log(main([1, 2, 3]))
+// console.log(main(5,5,5))
+// console.log(main(10,10,10))
+// console.log(main(0,0,0))
 module.exports = main;

@@ -1,10 +1,10 @@
 //10. Calcular a área de um quadrado. (O valor passado será em m²)
 function main(metros){
-    return metros;
+    return metros * metros;
 }
 
 
 
 
-// console.log(main(256))
+//console.log(main(4))
 module.exports = main;
